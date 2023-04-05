@@ -24,6 +24,10 @@ vim.cmd([[
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim' -- theme
+  use {
+    'nvim-lualine/lualine.nvim', -- status bar
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true } -- status bar icons
+  } 
 
   if packer_bootstrap then
     require('packer').sync()
