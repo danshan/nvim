@@ -55,6 +55,11 @@ return require('packer').startup(function(use)
   use('akinsho/bufferline.nvim') -- buffer 分割线
   use('lewis6991/gitsigns.nvim') -- 左侧 git 提示
 
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.1', -- 文件检索
+    requires = {{ 'nvim-lua/plenary.nvim' }}
+  }
+
   if packer_bootstrap then
     require('packer').sync()
   end

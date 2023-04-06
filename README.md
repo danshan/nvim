@@ -42,7 +42,7 @@ brew install --cask <font_name>
 For example, suppose you have selected the Hack font as your desired font. To install it, run the command:
 
 ```bash
-brew install --cask jetbrains-mono
+brew install --cask font-jetbrains-mono
 ```
 
 Output:
