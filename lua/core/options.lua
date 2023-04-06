@@ -20,7 +20,7 @@ opt.cursorline = true
 opt.mouse:append("a")
 
 -- clipboard
-opt.clipboard:append("unnamedplus")
+-- opt.clipboard:append("unnamedplus")
 
 -- split panel
 opt.splitright = true

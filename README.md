@@ -2,6 +2,16 @@
 
 ## prepare
 
+### install dependencies
+
+* ripgrep
+
+repo: https://github.com/BurntSushi/ripgrep
+
+```bash
+brew install ripgrep
+```
+
 ### install nerd fonts
 
 #### Step 1 - Add Cask-Fonts Formulae
@@ -48,30 +58,20 @@ brew install --cask font-jetbrains-mono
 Output:
 
 ```bash
-➜   brew install --cask font-jetbrains-mono
-==> Downloading https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip
-==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/173314762/8b6c0722-3a93-45df-b148-af3b3b2212b0?X-Amz-Algorithm=AWS4
+➜   brew install --cask font-hack-nerd-font
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/7b9eadbd-91c4-4495-afbf-28b0d9c0e3cb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credent
 ######################################################################## 100.0%
-==> Installing Cask font-jetbrains-mono
-==> Moving Font 'JetBrainsMono[wght].ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMono[wght].ttf'
-==> Moving Font 'JetBrainsMonoNL-BoldItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-BoldItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-ExtraBold.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-ExtraBold.ttf'
-==> Moving Font 'JetBrainsMonoNL-ExtraBoldItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-ExtraBoldItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-ExtraLight.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-ExtraLight.ttf'
-==> Moving Font 'JetBrainsMonoNL-ExtraLightItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-ExtraLightItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-Italic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Italic.ttf'
-==> Moving Font 'JetBrainsMonoNL-Light.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Light.ttf'
-==> Moving Font 'JetBrainsMonoNL-LightItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-LightItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-Medium.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Medium.ttf'
-==> Moving Font 'JetBrainsMonoNL-MediumItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-MediumItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-Regular.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Regular.ttf'
-==> Moving Font 'JetBrainsMonoNL-SemiBold.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-SemiBold.ttf'
-==> Moving Font 'JetBrainsMonoNL-SemiBoldItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-SemiBoldItalic.ttf'
-==> Moving Font 'JetBrainsMonoNL-Thin.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Thin.ttf'
-==> Moving Font 'JetBrainsMonoNL-ThinItalic.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-ThinItalic.ttf'
-==> Moving Font 'JetBrainsMono-Italic[wght].ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMono-Italic[wght].ttf'
-==> Moving Font 'JetBrainsMonoNL-Bold.ttf' to '/Users/shanhonghao/Library/Fonts/JetBrainsMonoNL-Bold.ttf'
-🍺  font-jetbrains-mono was successfully installed!
+==> Installing Cask font-hack-nerd-font
+==> Moving Font 'Hack Regular Nerd Font Complete.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Regular Nerd Font Complete.ttf'
+==> Moving Font 'Hack Bold Italic Nerd Font Complete.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Bold Italic Nerd Font Complete.ttf'
+==> Moving Font 'Hack Bold Nerd Font Complete Mono.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Bold Nerd Font Complete Mono.ttf'
+==> Moving Font 'Hack Bold Nerd Font Complete.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Bold Nerd Font Complete.ttf'
+==> Moving Font 'Hack Italic Nerd Font Complete Mono.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Italic Nerd Font Complete Mono.ttf'
+==> Moving Font 'Hack Italic Nerd Font Complete.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Italic Nerd Font Complete.ttf'
+==> Moving Font 'Hack Regular Nerd Font Complete Mono.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Regular Nerd Font Complete Mono.ttf'
+==> Moving Font 'Hack Bold Italic Nerd Font Complete Mono.ttf' to '/Users/honghao.shan/Library/Fonts/Hack Bold Italic Nerd Font Complete Mono.ttf'
+🍺  font-hack-nerd-font was successfully installed!
 ```
 
 
