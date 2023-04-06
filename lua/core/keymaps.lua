@@ -3,7 +3,7 @@ vim.g.mapleader = ","
 local keymap = vim.keymap
 
 ------- insert mode -------
-  
+
 ------- visual mode -------
 -- move lines
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
