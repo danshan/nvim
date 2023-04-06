@@ -28,6 +28,11 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim', -- status bar
     requires = { 'kyazdani42/nvim-web-devicons', opt = true } -- status bar icons
   } 
+  use {
+    'nvim-tree/nvim-tree.lua', -- file tree
+    requires = { 'nvim-tree/nvim-web-devicons' } -- file tree icons
+  }
+    
 
   if packer_bootstrap then
     require('packer').sync()

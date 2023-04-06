@@ -16,3 +16,4 @@ keymap.set("n", "<leader>sh", "<C-w>s")
 
 -- disable highlight
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")

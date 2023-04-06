@@ -1,3 +1,9 @@
+-- edit this config will install or update all the plugins
 require("plugins.plugins-setup")
+
 require("core.options")
 require("core.keymaps")
+
+-- plugins
+require("plugins.lualine")
+require("plugins.nvim-tree")
