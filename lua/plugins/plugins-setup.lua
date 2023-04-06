@@ -29,9 +29,12 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true } -- status bar icons
   } 
   use {
-    'nvim-tree/nvim-tree.lua', -- file tree
-    requires = { 'nvim-tree/nvim-web-devicons' } -- file tree icons
+    'nvim-tree/nvim-tree.lua', -- 文档树
+    requires = { 'nvim-tree/nvim-web-devicons' } -- 文档树 icons
   }
+  use 'christoomey/vim-tmux-navigator' -- 用 ctrl-hjkl 定位 panel
+  use 'nvim-treesitter/nvim-treesitter' -- 语法高亮
+  use 'p00f/nvim-ts-rainbow' -- 配合 treesitter, 不同括号颜色区分
     
 
   if packer_bootstrap then
