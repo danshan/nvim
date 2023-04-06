@@ -52,6 +52,9 @@ return require('packer').startup(function(use)
   use('numToStr/Comment.nvim') -- gc 和 gcc 注释
   use('windwp/nvim-autopairs') -- 自动补全括号
 
+  use('akinsho/bufferline.nvim') -- buffer 分割线
+  use('lewis6991/gitsigns.nvim') -- 左侧 git 提示
+
   if packer_bootstrap then
     require('packer').sync()
   end

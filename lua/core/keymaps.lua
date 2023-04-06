@@ -16,4 +16,14 @@ keymap.set("n", "<leader>sh", "<C-w>s")
 
 -- disable highlight
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+
+------- plugins -------
+-- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- bufferline
+keymap.set("n", "<S-L>", ":bnext<CR>")
+keymap.set("n", "<S-H>", ":bprevious<CR>")
+
+
+
