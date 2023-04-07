@@ -35,19 +35,19 @@ return require('packer').startup(function(use)
   use 'christoomey/vim-tmux-navigator' -- 用 ctrl-hjkl 定位 panel
   use 'nvim-treesitter/nvim-treesitter' -- 语法高亮
   use 'p00f/nvim-ts-rainbow' -- 配合 treesitter, 不同括号颜色区分
-  use {
-    'williamboman/mason.nvim',
-    'williamboman/mason-lspconfig.nvim', -- bridge for mason.nvim and lspconfig
-    'neovim/nvim-lspconfig'
-  }
+  -- use {
+  --   'williamboman/mason.nvim',
+  --   'williamboman/mason-lspconfig.nvim', -- bridge for mason.nvim and lspconfig
+  --   'neovim/nvim-lspconfig'
+  -- }
 
   -- auto complete
-  use('hrsh7th/nvim-cmp')
-  use('hrsh7th/cmp-nvim-lsp')
-  use('L3MON4D3/LuaSnip') -- snippets 引擎
-  use('saadparwaiz1/cmp_luasnip')
-  use('rafamadriz/friendly-snippets')
-  use('hrsh7th/cmp-path') -- 文件路径
+  -- use('hrsh7th/nvim-cmp')
+  -- use('hrsh7th/cmp-nvim-lsp')
+  -- use('L3MON4D3/LuaSnip') -- snippets 引擎
+  -- use('saadparwaiz1/cmp_luasnip')
+  -- use('rafamadriz/friendly-snippets')
+  -- use('hrsh7th/cmp-path') -- 文件路径
 
   use('numToStr/Comment.nvim') -- gc 和 gcc 注释
   use('windwp/nvim-autopairs') -- 自动补全括号
