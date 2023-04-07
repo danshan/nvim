@@ -7,7 +7,7 @@
 Session.vim
 .netrwhist
 *~
-plugin/packer_compiled.lua
+/plugin
 
 
 ## Java ##
