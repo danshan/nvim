@@ -34,3 +34,9 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes" 
 vim.cmd[[colorscheme tokyonight-moon]]
+
+
+opt.hidden = true
+opt.backup = true
+opt.writebackup = true
+opt.updatetime = 100

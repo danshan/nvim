@@ -35,6 +35,8 @@ return require('packer').startup(function(use)
   use 'christoomey/vim-tmux-navigator' -- 用 ctrl-hjkl 定位 panel
   use 'nvim-treesitter/nvim-treesitter' -- 语法高亮
   use 'p00f/nvim-ts-rainbow' -- 配合 treesitter, 不同括号颜色区分
+
+  use { 'neoclide/coc.nvim', branch = 'release' }
   -- use {
   --   'williamboman/mason.nvim',
   --   'williamboman/mason-lspconfig.nvim', -- bridge for mason.nvim and lspconfig
