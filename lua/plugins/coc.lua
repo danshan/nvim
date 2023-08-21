@@ -8,6 +8,9 @@ vim.g.coc_global_extensions = {
   'coc-marketplace',
   'coc-pyright',
   'coc-vimlsp',
+  'coc-java',
+  'coc-html',
+  'coc-markdownlint',
 }
 
 
