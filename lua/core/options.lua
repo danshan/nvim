@@ -37,6 +37,6 @@ vim.cmd[[colorscheme tokyonight-moon]]
 
 
 opt.hidden = true
-opt.backup = true
-opt.writebackup = true
+opt.backup = false
+opt.writebackup = false
 opt.updatetime = 100
